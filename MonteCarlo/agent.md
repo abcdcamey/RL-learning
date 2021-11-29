@@ -6,7 +6,7 @@ Initialize:#初始化
 
 ​	$\pi\leftarrow$ an arbitrary $\epsilon$-soft policy
 
-​	Q(s,a) $\in$ $ \Rho$ (arbitrary), for all s $\in$ $\varsigma$,a$\in$ $\Alpha$
+​	Q(s,a) $\in$ $\Rho$ (arbitrary), for all s $\in$ $\varsigma$,a$\in$ $\Alpha$
 
 ​	Returns(s,a) $\leftarrow$ Empty list, for all s $\in$ $\varsigma$ , a $\in$ $\Alpha$
 
