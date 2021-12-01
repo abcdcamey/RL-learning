@@ -10,6 +10,7 @@
 | :----------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | On-Policy First-Visit MC | [medium blog](https://medium.com/analytics-vidhya/monte-carlo-methods-in-reinforcement-learning-part-1-on-policy-methods-1f004d59686a) | [Racetrack](https://github.com/abcdcamey/RL-learning/blob/main/ENVS/racetrack_env.md) |
 |        Q-Learning        | [q learning paper](https://ieeexplore.ieee.org/document/8836506) | [CliffWalking-v0](https://github.com/abcdcamey/RL-learning/blob/main/ENVS/gym_info.md) |
+|        Sarsa        | [geeksforgeeks blog](https://www.geeksforgeeks.org/sarsa-reinforcement-learning/) | [Racetrack](https://github.com/abcdcamey/RL-learning/blob/main/ENVS/racetrack_env.md) |
 
 来源参考：https://github.com/datawhalechina/easy-rl
 
