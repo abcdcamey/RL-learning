@@ -40,6 +40,7 @@ class DQN:
             with torch.no_grad():
                 state = torch.tensor([state], device=self.device, dtype=torch.float32)
                 q_values = self.policy_net(state)
+
                 action = q_values.max(1)[1].item() # 选择Q值最大的动作
         else:
             action = random.randrange(self.action_dim)

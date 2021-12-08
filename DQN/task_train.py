@@ -59,7 +59,6 @@ def train(cfg, env, agent):
     ma_rewards = []
     for i_ep in range(cfg.train_eps):
         state = env.reset()
-        done = False
         ep_reward = 0
         while True:
             action = agent.choose_action(state)
