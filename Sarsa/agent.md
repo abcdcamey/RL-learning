@@ -9,9 +9,8 @@ Initialize:#初始化
 ​	Q(s,a) $\leftarrow Zero List$, for all s $\in$ $\varsigma$,a$\in$ $\Alpha$
 
 Repeat forever (for each episode):#训练过程
-$$
-\epsilon-greedy选择action过程 \\
-$$
+
+​    $a \leftarrow \epsilon-greedy选择action过程$
 
 ​	get $S_{next}$, $reward$ from $env(s,a)$
 
@@ -23,7 +22,13 @@ $$
 
 ​	$Q(s,a)\leftarrow$ $Q(s,a)$+$lr*(Q_{target} - Q_{predict})$
 
-On-policy的Sarsa和Off-policy的Q-learning主要区别在于行为策略和评估策略是否一致,Off-policy的两个策略不是一致的					
+On-policy的Sarsa和Off-policy的Q-learning主要区别在于行为策略和评估策略是否一致
+
+Q-learning的行为策略和评估策略使用的是不同的策略(行为策略使用$\epsilon-greedy$，评估策略的next action使用max)
+
+Sarsa的行为策略和评估策略使用的是不同的策略(行为策略使用$\epsilon-greedy$，评估策略也使用$\epsilon-greedy$)
+
+
 
 
 
